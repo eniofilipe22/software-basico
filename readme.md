@@ -16,3 +16,5 @@ ex.:
 ver o resultado: 
 
 ``` $? ``` 
+
+https://godbolt.org/
