@@ -1,0 +1,5 @@
+- 1 - [x] percorrer vetor de long long int e calcular a soma;
+- 2 - [x] percorrer string e calcular o seu tamanho;
+- 3 - [x] percorrer string e contar a ocorrência de determinado caractere;
+- 4 - [ ] ordenar o vetor de long long int;
+- 5 - [ ] converter uma string em convertê-la em número inteiro;

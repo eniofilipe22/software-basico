@@ -7,12 +7,11 @@ b: .byte 0
 _start:
 
 movb $3, a
-movb a, %al
-cmp $1, %al
+cmpb $1, a
 je caseum 
-cmp $2, %al
+cmpb $2, a
 je casedois
-cmp $3, %al
+cmpb $3, a
 jne fimswitch
 
 casetres:
@@ -27,6 +26,6 @@ casedois:
 movb $20, b
 
 fimswitch:
-movsbq b, %rdi
+movzbq b, %rdi
 movq $60, %rax
 syscall
